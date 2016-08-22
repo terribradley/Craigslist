@@ -1,6 +1,7 @@
 
 {{#each sortedListings as |listing|}}
-{{listing-detail listing=listing}}
-{{delete-listing listing=listing destroyListing="destroyListing"}}
-{{update-listing listing=listing update="update"}}
+  {{pay-grade listing}}
+  {{listing-detail listing=listing}}
+  {{delete-listing listing=listing destroyListing="destroyListing"}}
+  {{update-listing listing=listing update="update"}}
 {{/each}}

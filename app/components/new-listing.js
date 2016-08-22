@@ -10,7 +10,7 @@ export default Ember.Component.extend({
       var params = {
         name: this.get('name'),
         timestamp: this.get('timestamp'),
-        money: this.get('money'),
+        money: parseInt(this.get('money')),
         type: this.get('type'),
         category: this.get('category')
       };
