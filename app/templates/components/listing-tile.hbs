@@ -1,1 +1,6 @@
-<h2>{{#link-to 'listing' listing.id}}{{listing.name}}{{/link-to}}</h2>
+
+{{#each sortedListings as |listing|}}
+{{listing-detail listing=listing}}
+{{delete-listing listing=listing destroyListing="destroyListing"}}
+{{update-listing listing=listing update="update"}}
+{{/each}}
