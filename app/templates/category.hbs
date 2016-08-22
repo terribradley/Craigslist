@@ -1,0 +1,11 @@
+<h1>hello</h1>
+{{log model.listings.length}}
+{{log model.name}}
+{{#each model.listings as |listing|}}
+  {{listing-tile listing=listing}}
+{{/each}}
+
+
+
+<h3>Add a listing for this category!</h3>
+{{new-listing saveListing2="saveListing3" category=model}}

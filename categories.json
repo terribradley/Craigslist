@@ -1,0 +1,40 @@
+{"categories": [{
+  "name": "Jobs"
+}, {
+  "name": "Housing"
+}, {
+  "name": "Goods"
+}],
+
+"listings": [{
+  "name": "Teacher wanted for Fall",
+  "timestamp": "8/10/2016",
+  "category": "Jobs",
+  "money": 30000,
+  "type": "Education"
+},{
+  "name": "Backend Developer wanted at a New Start Up",
+  "timestamp": "8/5/2016",
+  "category": "Jobs",
+  "money": 40000,
+  "type": "Tech"
+}, {
+  "name": "Sub Needed Badley",
+  "timestamp": "8/10/2016",
+  "category": "Jobs",
+  "money": 25000,
+  "type": "Education"
+}, {
+  "name": "Vintage Dresser",
+  "timestamp": "8/20/2016",
+  "category": "Goods",
+  "money": 100,
+  "type": "Furniture"
+}, {
+  "name": "Beautiful Apartment - Close to everything",
+  "timestamp": "8/10/2016",
+  "category": "Housing",
+  "money": 650,
+  "type": "apartment"
+  }]
+}
