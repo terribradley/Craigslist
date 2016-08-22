@@ -1,3 +1,9 @@
 <h1>Admin</h1>
 
 {{new-category saveCategory2="saveCategory3"}}
+
+<h2>Delete category</h2>
+{{#each model as |category|}}
+{{category-tile category=category}}
+{{delete-category category=category destroyCategory="destroyCategory"}}
+{{/each}}
