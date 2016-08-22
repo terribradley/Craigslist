@@ -3,10 +3,10 @@ import Ember from 'ember';
 export default Ember.Component.extend({
   addNewListing: false,
   actions: {
-   listingFormShow() {
+    listingFormShow() {
      this.set('addNewListing', true);
-   },
-   saveListing1() {
+    },
+    saveListing1() {
       var params = {
         name: this.get('name'),
         timestamp: this.get('timestamp'),

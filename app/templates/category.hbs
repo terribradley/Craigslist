@@ -1,10 +1,10 @@
 <h1>{{model.name}}</h1>
+
 {{#each model.listings as |listing|}}
   {{listing-tile listing=listing}}
   {{delete-listing listing=listing destroyListing="destroyListing"}}
+  {{update-listing listing=listing update="update"}}
 {{/each}}
-
-
 
 <h3>Add a listing for this category!</h3>
 {{new-listing saveListing2="saveListing3" category=model}}
