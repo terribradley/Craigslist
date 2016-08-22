@@ -1,6 +1,7 @@
-<h1>hi!</h1>
-{{#link-to 'admin'}}Admin{{/link-to}}
-
-{{#each model.categories as |category|}}
-  {{category-tile category=category}}
-{{/each}}
+<section class="main-content">
+  {{#each model.categories as |category|}}
+  <section class="category-tile">
+    {{category-tile category=category}}
+  </section>
+  {{/each}}
+</section>
