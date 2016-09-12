@@ -1,7 +1,6 @@
 # Craigslist
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This app uses ember.js framework to create a craigslist type site, where users can list items for sale and job postings, categorize them and sort them with helpers and computed properties. 
 
 ## Prerequisites
 
@@ -50,4 +49,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
